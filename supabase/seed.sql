@@ -1,0 +1,3 @@
+-- El modo demo del frontend ya incluye datos ficticios en localStorage.
+-- Para producción no se insertan registros globales: cada fila queda aislada por auth.uid() y RLS.
+-- Crea un usuario desde la interfaz y registra sus datos normalmente.
